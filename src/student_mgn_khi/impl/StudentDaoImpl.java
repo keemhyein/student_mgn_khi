@@ -84,7 +84,7 @@ public class StudentDaoImpl implements StudentDao {
 
 	@Override
 	public int updateStudent(Student student) {
-		String sql = "update student set kor =? where stdno = ?";
+		String sql = "update student set kor = ? where stdno = ?";
 		try(Connection con = JdbcUtil.getConnection();
 			PreparedStatement pstmt = con.prepareStatement(sql)){
 			pstmt.setInt(1, student.getKor());

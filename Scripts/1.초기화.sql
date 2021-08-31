@@ -23,6 +23,6 @@ ALTER TABLE student_mgn.student
 		
 
 -- 사용자 계정
-drop user 'user_student_mgn'@'localhost';
+drop user if exists 'user_student_mgn'@'localhost';
 
 grant all privileges on student_mgn.* to 'user_student_mgn'@'localhost' IDENTIFIED BY 'rootroot';
