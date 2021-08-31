@@ -13,8 +13,7 @@
 				"url": "jdbc:mysql://localhost:3306/",
 				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
 				"type": "dev",
-				"auth-model": "native",
-				"handlers": {}
+				"auth-model": "native"
 			}
 		},
 		"mysql8-17b999d00bc-7e53316d0583851d": {
@@ -28,6 +27,22 @@
 				"port": "3306",
 				"database": "student_mgn",
 				"url": "jdbc:mysql://localhost:3306/student_mgn",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-17b9ac1e28d-c2654bf7b40dd5b": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "std_mgn_2",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "std_mgn_2",
+				"url": "jdbc:mysql://localhost:3306/std_mgn_2",
 				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
 				"type": "dev",
 				"auth-model": "native",
